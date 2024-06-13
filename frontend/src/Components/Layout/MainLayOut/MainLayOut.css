@@ -1,5 +1,6 @@
 .MainLayOut {
 	display: grid;
+    flex-wrap: wrap;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 10% 80% 10%;
     box-sizing: border-box;
