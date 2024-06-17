@@ -1,6 +1,7 @@
 import { Author } from "../../../Models/author";
 import "./Authors.css";
 import { useEffect, useState } from "react";
+import {getAllAuthors} from "../../../../../backend/Controllers/authorsController";
 function Authors(): JSX.Element {
     const [authors, setAuthors] = useState<Author[]>([]);
     useEffect(()=>{
